@@ -1,5 +1,6 @@
 const folk = document.querySelectorAll(".folk")
 const footer = document.querySelector(".settings")
+let docStyle = getComputedStyle(document.documentElement);
 
 gogn()
 
@@ -48,7 +49,8 @@ function litir() {
     t.textContent = "Bakgrunnur"
     t.id = "ltitill"
     let l = document.createElement("input")
-    l.setAttribute("type","color")
+    l.type = "color"
+    l.value = docStyle.getPropertyValue('--main-background')
     l.classList.add("litir")
     l.addEventListener("change",()=>{
         let lighter = shadeColor(l.value,20)
@@ -70,6 +72,8 @@ function letur() {
     let ltTitle = document.createElement("h2")
     ltTitle.textContent = "Nöfn"
     lt.type = "color"
+    lt.value = docStyle.getPropertyValue('--name-text-color')
+
     lt.addEventListener("change",()=>{
         document.documentElement.style.setProperty('--name-text-color', lt.value)
     })
@@ -80,6 +84,8 @@ function letur() {
     let lbTitle = document.createElement("h2")
     lbTitle.textContent = "Texti"
     lb.type = "color"
+    console.log(docStyle.getPropertyValue('--main-text-color'))
+    lb.value = docStyle.getPropertyValue('--main-text-color')
     lb.addEventListener("change",()=>{
         document.documentElement.style.setProperty('--main-text-color', lb.value)
     })
