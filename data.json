@@ -26,5 +26,9 @@
     {"link": "teitur.jpg", "nafn": "Teitur Magnússon"},
     {"link": "vigdis.jpg", "nafn": "Vigdís Arna"},
     {"link": "thordur.webp", "nafn": "Þórður Magnússon"},
-    {"link": "thorunn.jpg", "nafn": "Þórunn Magnea Magnúsdóttir"}
+    {"link": "thorunn.jpg", "nafn": "Þórunn Magnea Magnúsdóttir"},
+    {"link": "tota.jpg", "nafn": "Þórunn Björnsdóttir"},
+    {"link": "olafurdarri.jpg", "nafn": "Ólafur Darri"},
+    {"link": "hallatomasdottir.jpg", "nafn": "Halla Tómasdóttir"},
+    {"link": "bjork.jpeg", "nafn": "Björk"}
 ]
