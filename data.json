@@ -30,5 +30,9 @@
     {"link": "tota.jpg", "nafn": "Þórunn Björnsdóttir"},
     {"link": "olafurdarri.jpg", "nafn": "Ólafur Darri"},
     {"link": "hallatomasdottir.jpg", "nafn": "Halla Tómasdóttir"},
-    {"link": "bjork.jpeg", "nafn": "Björk"}
+    {"link": "bjork.jpeg", "nafn": "Björk"},
+    {"link":"annasigridur.png", "nafn": "Anna Sigríður Helgadóttir"},
+    {"link":"rut.jpg", "nafn": "Rut Ríkey"},
+    {"link":"signysigurdar.jpg", "nafn": "Signý Sigurðardóttir"},
+    {"link":"eggertpeturs.jpg", "nafn": "Eggert Pétursson"}
 ]
