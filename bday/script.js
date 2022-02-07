@@ -9,6 +9,7 @@ async function getPics() {
         let instance = document.createElement("img")
         instance.src = link
         let holder = document.querySelector("#d"+(count%3))
+        if (link.includes("tom.png")) instance.classList.add("tomi")
         holder.appendChild(instance)
     });
 
