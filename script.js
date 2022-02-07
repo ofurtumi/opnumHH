@@ -2,6 +2,7 @@ const folk = document.querySelectorAll(".folk")
 const footer = document.querySelector(".settings")
 let docStyle = getComputedStyle(document.documentElement);
 
+
 gogn()
 
 async function gogn() {

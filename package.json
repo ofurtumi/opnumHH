@@ -1,0 +1,21 @@
+{
+  "name": "opnumhh",
+  "version": "1.0.0",
+  "description": "örlítið vefforrit til þess að auðvelda workflow",
+  "main": "script.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ofurtumi/opnumHH.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ofurtumi/opnumHH/issues"
+  },
+  "homepage": "https://github.com/ofurtumi/opnumHH#readme"
+}

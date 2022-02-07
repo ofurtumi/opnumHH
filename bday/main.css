@@ -1,0 +1,9 @@
+img {
+    max-width: 50px;
+}
+
+body {
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(8,1fr);
+}
