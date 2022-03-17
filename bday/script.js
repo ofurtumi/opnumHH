@@ -1,5 +1,5 @@
 async function getPics() {
-    pics = await fetch("../dataDone.json")
+    pics = await fetch("../data.json")
     pics = await pics.json()
     
     let count = 1;

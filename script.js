@@ -11,7 +11,7 @@ async function gogn() {
     let dropdown;
     dropdown = await fetch("data.json")
     dropdown = await dropdown.json()
-
+    console.log('dropdown --> ', dropdown)
 
     dropdown.forEach(element => {
         html += "<option value=" + element["link"]  + ">" +element["nafn"] + "</option>"
